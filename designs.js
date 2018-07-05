@@ -11,11 +11,11 @@ console.log($("#inputWeight").val());
 $("input[type='submit']").on("click", function(event) {
 
     event.preventDefault();
-    console.log("blah");
 
     var height = $("#inputHeight").val();
-    var width = $("inputWeight").val();
+    var width = $("#inputWeight").val();
 
+    $("#pixelCanvas").empty();
     makeGrid(height, width);
 
 });
