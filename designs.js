@@ -1,12 +1,8 @@
 
 
-
 console.log($("#colorPicker").val());
-
-
 console.log($("#inputHeight").val());
 console.log($("#inputWeight").val());
-
 
 $("input[type='submit']").on("click", function(event) {
 
@@ -35,9 +31,6 @@ function makeGrid(height, width) {
     }    
 
 }
-
-
-
 
 $("#pixelCanvas").on("click", "td", function() {
 
