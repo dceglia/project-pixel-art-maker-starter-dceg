@@ -37,3 +37,10 @@ function makeGrid(height, width) {
 }
 
 
+
+
+$("#pixelCanvas").on("click", "td", function() {
+
+    $(this).css("background-color", $("#colorPicker").val());
+
+});
